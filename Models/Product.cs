@@ -1,10 +1,11 @@
 ﻿namespace Market.Models
 {
     public class Product : BaseModel
-    { 
-        public double Price { get; set; }
+    {
+        public int Price { get; set; }
         public int Category_Id { get; set; }
-        public virtual Category? Category { get; set; }
-        public virtual List<ProductStorage> ProductStorages { get; set; } = new();
+        public string Descriptions { get; set; } = null!;
+        public virtual Category Category { get; set; } = null!;
+        public virtual List<Storage> Storages { get; set; } = null!;
     }
 }

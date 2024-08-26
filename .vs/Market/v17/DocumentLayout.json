@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\MSi\\source\\repos\\Market\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\models\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:models\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\controllers\\productpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:controllers\\productpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\models\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:models\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\models\\productstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:models\\productstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,46 +29,46 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 277,
+          "DockedWidth": 352,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductContext.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\ProductContext.cs",
-              "RelativeDocumentMoniker": "Models\\ProductContext.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\ProductContext.cs",
-              "RelativeToolTip": "Models\\ProductContext.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAA1wBQAAAAJAAAA",
+              "Title": "ProductPriceController.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\ProductPriceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductPriceController.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\ProductPriceController.cs",
+              "RelativeToolTip": "Controllers\\ProductPriceController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T20:54:18.75Z",
+              "WhenOpened": "2024-08-26T23:30:25.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductStorage.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\ProductStorage.cs",
-              "RelativeDocumentMoniker": "Models\\ProductStorage.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\ProductStorage.cs",
-              "RelativeToolTip": "Models\\ProductStorage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowDAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T20:47:24.806Z",
+              "WhenOpened": "2024-08-26T23:28:32.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Storage.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\Storage.cs",
-              "RelativeDocumentMoniker": "Models\\Storage.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\Storage.cs",
-              "RelativeToolTip": "Models\\Storage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T20:34:25.766Z",
+              "WhenOpened": "2024-08-26T11:18:03.337Z",
               "EditorCaption": ""
             },
             {
@@ -83,35 +79,22 @@
               "RelativeDocumentMoniker": "Models\\Category.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\Category.cs",
               "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T20:23:12.248Z",
+              "WhenOpened": "2024-08-26T22:43:30.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T20:07:11.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T20:04:13.517Z",
+              "WhenOpened": "2024-08-26T08:13:00.048Z",
               "EditorCaption": ""
             }
           ]

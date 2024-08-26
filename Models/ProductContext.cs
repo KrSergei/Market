@@ -5,7 +5,7 @@ namespace Market.Models
     public class ProductContext : DbContext
     {
         private string _connectionString = "Host=localhost;Username=postgres;Password=1;Database=Market";
-        public virtual DbSet<ProductStorage> ProductStorages { get; set; }
+
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Category> Categoryes { get; set; }
         public virtual DbSet<Storage> Storages { get; set; }
@@ -18,16 +18,60 @@ namespace Market.Models
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            //1.37.18
+        {            
             modelBuilder.Entity<Product>(entity =>
             {
-                entity.HasKey(x => x.Id).HasName("product_pkey");
                 entity.ToTable("Products");
-                entity.Property(x => x.ID_user).HasColumnName("user_id");
+                entity.HasKey(x => x.Id).HasName("ProductId");
+                entity.HasIndex(x => x.Name).IsUnique();
+
+                entity.Property(e => e.Name)
+                .HasColumnName("ProductName")
+                .HasMaxLength(255)
+                .IsRequired();
+
+                entity.Property(e => e.Description)
+                .HasColumnName("Description")
+                .HasMaxLength(255)
+                .IsRequired();
+
+                entity.Property(e => e.Price)
+                .HasColumnName("Price")
+                .IsRequired();
+
+                entity.HasOne(x => x.Category)
+                .WithMany(z => z.Products)
+                .HasForeignKey(c =>c.Id)
+                .HasConstraintName("CategoryToProduct");
+            });
+
+            modelBuilder.Entity<Category>(entity =>
+            {
+                entity.ToTable("ProductsCategory");
+
+                entity.HasKey(x => x.Id).HasName("CategoryId");
+                entity.HasIndex(x => x.Name).IsUnique();
+
+                entity.Property(e => e.Name)
+                .HasColumnName("ProductName")
+                .HasMaxLength(255)
+                .IsRequired();
+            });
+
+            modelBuilder.Entity<Storage>(entity =>
+            {
+                entity.ToTable("Storage");
+                entity.HasKey(x => x.Id).HasName("StorageId");
+
                 entity.Property(x => x.Name)
-                      .HasMaxLength(255)
-                      .HasColumnName("Name");
+                .HasColumnName("StorageName");
+
+                entity.Property(x => x.Count)
+                .HasColumnName("ProductCount");      
+
+                entity.HasMany(x => x.Products)
+                .WithMany(s => s.Storages)
+                .UsingEntity(z => z.ToTable("ProductStorage"));
             });
         }
     }
