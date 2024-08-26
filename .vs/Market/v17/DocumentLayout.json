@@ -55,8 +55,7 @@
               "RelativeToolTip": "Controllers\\ProductController.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAowDAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T23:28:32.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T23:28:32.06Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Controllers\\CategoryController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T11:18:03.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T11:18:03.337Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T22:43:30.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T22:43:30.16Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T08:13:00.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T08:13:00.048Z"
             }
           ]
         }
