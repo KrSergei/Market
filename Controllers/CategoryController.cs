@@ -1,4 +1,6 @@
-﻿using Market.Models;
+﻿using Market.Abstractions;
+using Market.Models;
+using Market.Models.DTO;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Market.Controllers
@@ -7,36 +9,31 @@ namespace Market.Controllers
     [Route("[controller]")]
     public class CategoryController : ControllerBase
     {
-        [HttpPost(template: "postCatecory")]
-        public  IActionResult PostCategory([FromQuery] string name, string description)
+        private readonly IProductRepository _productRepository;
+
+        public CategoryController(IProductRepository productRepository)
         {
-            try
+            _productRepository = productRepository;
+        }
+
+        [HttpGet(template: "get_categoryes")]
+        public IActionResult GetCategoryes()
+        {
+            using (var context = new ProductContext())
             {
-                using (var context = new ProductContext())
-                {
-                    if (!context.Categoryes.Any(x => x.Name.ToLower().Equals(name)))
-                    {
-                        context.Add(new Category()
-                        {
-                            Name = name,
-                            Description = description
-                        });
-                        context.SaveChanges();
-                        return Ok();
-                    }
-                    else
-                    {
-                        return StatusCode(409);
-                    }
-                }
-            }
-            catch (Exception)
-            {
-                return StatusCode(500);
+                var categoryes = _productRepository.GetCategoryes();
+                return Ok(categoryes);
             }
         }
 
-        [HttpDelete(template: "deleteCatecory")]
+        [HttpPost(template: "add_category")]
+        public  IActionResult AddCategory([FromBody] CategoryDto categoryDto)
+        {
+            var result = _productRepository.AddCategory(categoryDto);
+            return Ok(result);
+        }
+
+        [HttpDelete(template: "delete_catecory")]
         public IActionResult DeleteCategory([FromQuery] string name)
         {
             try

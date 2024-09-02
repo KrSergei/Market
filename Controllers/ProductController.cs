@@ -1,4 +1,6 @@
-﻿using Market.Models;
+﻿using Market.Abstractions;
+using Market.Models;
+using Market.Models.DTO;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Market.Controllers;
@@ -6,64 +8,33 @@ namespace Market.Controllers;
 [ApiController]
 [Route("[controller]")]
 public class ProductController : ControllerBase
-{
-    //1.51.55
-    
-    [HttpGet(template: "getProduct")]
-    public IActionResult GetProducts()
+{  
+    private readonly IProductRepository _productRepository;
+
+    public ProductController(IProductRepository productRepository)
     {
-		try
-		{
-			using (var context = new ProductContext())
-			{
-				var products = context.Products.Select(x => new Product()
-				{ 
-					Id = x.Id,
-					Name = x.Name,
-					Description = x.Description
-				});
-				return Ok(products);
-			}
-		}
-		catch (Exception)
-		{
-			return StatusCode(500);
-		}
+        _productRepository = productRepository;
     }
 
-    [HttpPost(template: "postProduct")]
-    public IActionResult PostProducts([FromQuery] string name, string description, int categoryId, int price)
+    [HttpGet(template: "get_products")]
+    public IActionResult GetProducts()
     {
-        try
+        using (var context = new ProductContext())
         {
-            using (var context = new ProductContext())
-            {
-                if(!context.Products.Any(x => x.Name.ToLower().Equals(name)))
-                {
-                    context.Add(new Product()
-                    {
-                        Name = name,
-                        Description = description,
-                        Category_Id = categoryId,
-                        Price = price
-                    });
-                    context.SaveChanges();
-                    return Ok();
-                }
-                else
-                {
-                    return StatusCode(409);
-                }
-            }
+            var products = _productRepository.GetProducts();
+            return Ok(products);
         }
-        catch (Exception)
-        {
-            return StatusCode(500);
-        }
+    }
+
+    [HttpPost(template: "add_products")]
+    public IActionResult AddProduct([FromBody] ProductDto productDto)
+    {
+        var result = _productRepository.AddProduct(productDto);
+        return Ok(result);
     }    
     
-    [HttpDelete(template: "deleteProduct")]
-    public IActionResult delteProducts([FromQuery] string name)
+    [HttpDelete(template: "delete_products")]
+    public IActionResult DeleteProducts([FromQuery] string name)
     {
         try
         {

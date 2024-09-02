@@ -20,6 +20,7 @@ builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
     containerBuilder.RegisterType<ProductRepository>().As<IProductRepository>();
 });
 
+builder.Services.AddMemoryCache(mc => mc.TrackStatistics = true);
 //Добавление через синглтон
 //builder.Services.AddSingleton<IProductRepository, ProductRepository>();
 

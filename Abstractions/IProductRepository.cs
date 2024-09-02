@@ -5,8 +5,8 @@ namespace Market.Abstractions
     public interface IProductRepository
     {
         public int AddCategory(CategoryDto category);
-        public IEnumerable<CategoryDto> GetCategory();
+        public IEnumerable<CategoryDto> GetCategoryes();
         public int AddProduct(ProductDto product);
-        public IEnumerable<ProductDto> GetProduct();
+        public IEnumerable<ProductDto> GetProducts();
     }
 }
