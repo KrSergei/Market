@@ -3,91 +3,101 @@ using Market.Abstractions;
 using Market.Models;
 using Market.Models.DTO;
 using Microsoft.Extensions.Caching.Memory;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
-namespace Market.Repo
+namespace Market.Repo;
+
+public class ProductRepository : IProductRepository
 {
-    public class ProductRepository : IProductRepository
+    readonly private IMapper? _mapper;
+    private IMemoryCache _memoryCache;
+    private ProductContext _context;
+
+    public ProductRepository(IMapper? mapper, IMemoryCache memoryCache, ProductContext context)
     {
-        readonly private IMapper? _mapper;
-        private IMemoryCache _memoryCache;
-
-        public ProductRepository(IMapper? mapper, IMemoryCache memoryCache)
+        _mapper = mapper;
+        _memoryCache = memoryCache;
+        _context = context;
+    }
+    public int AddCategory(CategoryDto category)
+    {
+        try
         {
-            _mapper = mapper;
-            _memoryCache = memoryCache;
-        }
-        public int AddCategory(CategoryDto category)
-        {
-            try
+            using (_context)
             {
-                using (var context = new ProductContext())
-                {
-                    var entityCategory = context.Categoryes.FirstOrDefault(x => x.Name.ToLower().Equals(category.Name.ToLower()));
-                    if (entityCategory == null)
-                    {                        
-                        entityCategory = _mapper?.Map<Category>(category);
-                        context.Categoryes.Add(entityCategory);
-                        context.SaveChanges();                    
-                        _memoryCache.Remove("category");
-                    }
-                    return entityCategory.Id;
+                var entityCategory = _context.Categoryes.FirstOrDefault(x => x.Name.ToLower().Equals(category.Name.ToLower()));
+                if (entityCategory == null)
+                {                        
+                    entityCategory = _mapper?.Map<Category>(category);
+                    _context.Categoryes.Add(entityCategory);
+                    _context.SaveChanges();                    
+                    _memoryCache.Remove("category");
                 }
-            }
-            catch (Exception e)
-            {
-                throw;
+                return entityCategory.Id;
             }
         }
-
-        public int AddProduct(ProductDto product)
+        catch (Exception e)
         {
-            try
+            throw;
+        }
+    }
+
+    public int AddProduct(ProductDto product)
+    {
+        try
+        {
+            using (_context)
             {
-                using (var context = new ProductContext())
+                var entityProduct = _context.Products.FirstOrDefault(x => x.Name.ToLower().Equals(product.Name.ToLower()));
+                if (entityProduct == null)
                 {
-                    var entityProduct = context.Products.FirstOrDefault(x => x.Name.ToLower().Equals(product.Name.ToLower()));
-                    if (entityProduct == null)
-                    {
-                        entityProduct = _mapper?.Map<Product>(product);
-                        context.Products.Add(entityProduct);
-                        context.SaveChanges();
-                        _memoryCache.Remove("products");
-                    }
-                    return entityProduct.Id;
+                    entityProduct = _mapper?.Map<Product>(product);
+                    _context.Products.Add(entityProduct);
+                    _context.SaveChanges();
+                    _memoryCache.Remove("products");
                 }
-            }
-            catch (Exception e)
-            {
-                throw;
+                return entityProduct.Id;
             }
         }
-
-        public IEnumerable<CategoryDto> GetCategoryes()
+        catch (Exception e)
         {
-            if(_memoryCache.TryGetValue("category", out List<CategoryDto>? categoryDto))
-            {
-                return categoryDto;
-            }           
-            using (var context = new ProductContext())
-            {
-                var categoriesList = context.Categoryes.Select(x => _mapper.Map<CategoryDto>(x)).ToList();
-                _memoryCache.Set("category", categoriesList, TimeSpan.FromMinutes(30));
-                return categoriesList;
-            }
+            throw;
         }
+    }
 
-        public IEnumerable<ProductDto> GetProducts()
+    public IEnumerable<CategoryDto> GetCategoryes()
+    {
+        if(_memoryCache.TryGetValue("category", out List<CategoryDto>? categoryDto))
         {
-            if (_memoryCache.TryGetValue("products", out List<ProductDto>? productDto))
-            {
-                return productDto;
-            }
-            using (var context = new ProductContext())
-            {
-                var productsList = context.Products.Select(x => _mapper.Map<ProductDto>(x)).ToList();
-                _memoryCache.Set("products", productsList, TimeSpan.FromMinutes(30));
-                return productsList;
-            }
+            return categoryDto;
+        }           
+        using (_context)
+        {
+            var categoriesList = _context.Categoryes.Select(x => _mapper.Map<CategoryDto>(x)).ToList();
+            _memoryCache.Set("category", categoriesList, TimeSpan.FromMinutes(30));
+            return categoriesList;
         }
+    }
+
+    public IEnumerable<ProductDto> GetProducts()
+    {
+        if (_memoryCache.TryGetValue("products", out List<ProductDto>? productDto))
+        {
+            return productDto;
+        }
+        using (_context)
+        {
+            var productsList = _context.Products.Select(x => _mapper.Map<ProductDto>(x)).ToList();
+            _memoryCache.Set("products", productsList, TimeSpan.FromMinutes(30));
+            return productsList;
+        }
+    }
+
+    public string GetCasheStatisticURL()
+    {
+        var content = "";
+        content = JsonSerializer.Serialize(_memoryCache.GetCurrentStatistics());
+        return content;
     }
 }

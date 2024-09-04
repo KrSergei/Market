@@ -2,6 +2,7 @@
 using Market.Models;
 using Market.Models.DTO;
 using Microsoft.AspNetCore.Mvc;
+using System.Text;
 
 namespace Market.Controllers;
 
@@ -10,16 +11,18 @@ namespace Market.Controllers;
 public class ProductController : ControllerBase
 {  
     private readonly IProductRepository _productRepository;
+    private ProductContext _context;
 
-    public ProductController(IProductRepository productRepository)
+    public ProductController(IProductRepository productRepository, ProductContext context)
     {
         _productRepository = productRepository;
+        _context = context;
     }
 
     [HttpGet(template: "get_products")]
     public IActionResult GetProducts()
     {
-        using (var context = new ProductContext())
+        using (_context)
         {
             var products = _productRepository.GetProducts();
             return Ok(products);
@@ -31,20 +34,20 @@ public class ProductController : ControllerBase
     {
         var result = _productRepository.AddProduct(productDto);
         return Ok(result);
-    }    
-    
+    } 
+
     [HttpDelete(template: "delete_products")]
     public IActionResult DeleteProducts([FromQuery] string name)
     {
         try
         {
-            using (var context = new ProductContext())
+            using (_context)
             {
-                var deletingProduct = context.Products.FirstOrDefault(x => x.Name.ToLower().Equals(name));
+                var deletingProduct = _context.Products.FirstOrDefault(x => x.Name.ToLower().Equals(name));
                 if (deletingProduct != null)
                 {
-                    context.Remove(deletingProduct);    
-                    context.SaveChanges();
+                    _context.Remove(deletingProduct);
+                    _context.SaveChanges();
                     return Ok();
                 }
                 else
@@ -57,5 +60,40 @@ public class ProductController : ControllerBase
         {
             return StatusCode(500);
         }
+    }
+
+    [HttpGet(template: "get_products_csv")]
+    public FileContentResult GetProductsCSV()
+    {
+        using (_context)
+        {
+            var products = _productRepository.GetProducts();
+            var content = GetSCV(products);
+            return File(new UTF8Encoding().GetBytes(content), "text/scv", "report.scv");
+        }
+    }
+
+
+    [HttpGet(template: "get_statistic_cash_url")]
+    public ActionResult<string> GetProductSCVURL()
+    {
+        var content = "";
+        content = "";     
+
+        string fileName = null;
+        fileName = "Products" + DateTime.Now.ToBinary().ToString() + ".scv";
+        System.IO.File.WriteAllText(Path.Combine(Directory.GetCurrentDirectory(), "StaticFiles", fileName), content);
+        return "https://" + Request.Host.ToString() + "/static/" + fileName;
+    }
+
+
+    private string GetSCV(IEnumerable<ProductDto> products)
+    {
+        StringBuilder sb = new StringBuilder();
+        foreach (var product in products)
+        {
+            sb.Append($"{product.Name} : {product.Description} : {product.Price}");
+        }
+        return sb.ToString();
     }
 }

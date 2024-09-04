@@ -4,13 +4,17 @@ namespace Market.Models
 {
     public class ProductContext : DbContext
     {
-        private string _connectionString = "Host=localhost;Username=postgres;Password=1;Database=Market";
+        private string _connectionString;
 
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Category> Categoryes { get; set; }
         public virtual DbSet<Storage> Storages { get; set; }
 
-        public ProductContext() { }
+
+        public ProductContext(string connectingString)
+        {
+            _connectionString = connectingString;
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

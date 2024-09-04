@@ -10,16 +10,18 @@ namespace Market.Controllers
     public class CategoryController : ControllerBase
     {
         private readonly IProductRepository _productRepository;
+        private ProductContext _context;
 
-        public CategoryController(IProductRepository productRepository)
+        public CategoryController(IProductRepository productRepository, ProductContext productContext)
         {
             _productRepository = productRepository;
+            _context = productContext;
         }
 
         [HttpGet(template: "get_categoryes")]
         public IActionResult GetCategoryes()
         {
-            using (var context = new ProductContext())
+            using (_context)
             {
                 var categoryes = _productRepository.GetCategoryes();
                 return Ok(categoryes);
@@ -38,13 +40,13 @@ namespace Market.Controllers
         {
             try
             {
-                using (var context = new ProductContext())
+                using (_context)
                 {
-                    var deletigRow = context.Categoryes.FirstOrDefault(x => x.Name.ToLower().Equals(name));
+                    var deletigRow = _context.Categoryes.FirstOrDefault(x => x.Name.ToLower().Equals(name));
                     if (deletigRow != null)
                     {
-                        context.Remove(deletigRow);
-                        context.SaveChanges();
+                        _context.Remove(deletigRow);
+                        _context.SaveChanges();
                         return Ok();
                     }
                     else

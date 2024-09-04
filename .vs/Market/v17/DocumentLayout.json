@@ -3,80 +3,147 @@
   "WorkspaceRootPath": "C:\\Users\\MSi\\source\\repos\\Market\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\controllers\\cashcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:controllers\\cashcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\repo\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:repo\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\abstractions\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:abstractions\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\models\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:models\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\models\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:models\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\controllers\\productpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:controllers\\productpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\repo\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:repo\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\models\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:models\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 352,
-          "SelectedChildIndex": 3,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "DocumentIndex": 0,
+              "Title": "CashController.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\CashController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CashController.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\CashController.cs",
+              "RelativeToolTip": "Controllers\\CashController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T22:20:01.027Z",
+              "WhenOpened": "2024-09-04T18:18:52.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA8AAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAIwFUAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T23:28:32.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T12:12:15.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T12:10:32.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductPriceController.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\ProductPriceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductPriceController.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\ProductPriceController.cs",
+              "RelativeToolTip": "Controllers\\ProductPriceController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T12:07:14.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Abstractions\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Abstractions\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Abstractions\\IProductRepository.cs",
+              "RelativeToolTip": "Abstractions\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T18:03:39.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-04T11:58:04.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductContext.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\ProductContext.cs",
+              "RelativeDocumentMoniker": "Models\\ProductContext.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\ProductContext.cs",
+              "RelativeToolTip": "Models\\ProductContext.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T11:52:16.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAADAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T21:21:30.315Z"
             },
             {
               "$type": "Document",
@@ -86,97 +153,9 @@
               "RelativeDocumentMoniker": "Repo\\ProductRepository.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Repo\\ProductRepository.cs",
               "RelativeToolTip": "Repo\\ProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA0AAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAIwGMAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:50:17.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T21:21:30.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Abstractions\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Abstractions\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Abstractions\\IProductRepository.cs",
-              "RelativeToolTip": "Abstractions\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:03:39.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\DTO\\CategoryDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\CategoryDto.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\DTO\\CategoryDto.cs",
-              "RelativeToolTip": "Models\\DTO\\CategoryDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:10:41.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MappingProFile.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Repo\\MappingProFile.cs",
-              "RelativeDocumentMoniker": "Repo\\MappingProFile.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Repo\\MappingProFile.cs",
-              "RelativeToolTip": "Repo\\MappingProFile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T16:56:28.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\DTO\\ProductDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\DTO\\ProductDto.cs",
-              "RelativeToolTip": "Models\\DTO\\ProductDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:09:36.145Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T22:43:30.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T08:13:00.048Z"
+              "WhenOpened": "2024-09-01T18:50:17.349Z"
             }
           ]
         }

@@ -8,5 +8,6 @@ namespace Market.Abstractions
         public IEnumerable<CategoryDto> GetCategoryes();
         public int AddProduct(ProductDto product);
         public IEnumerable<ProductDto> GetProducts();
+        public string GetCasheStatisticURL();
     }
 }
