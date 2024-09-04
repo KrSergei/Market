@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\MSi\\source\\repos\\Market\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\repo\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:repo\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\abstractions\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CashController.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\CashController.cs",
               "RelativeDocumentMoniker": "Controllers\\CashController.cs",
@@ -58,20 +58,20 @@
               "RelativeToolTip": "Controllers\\CashController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T18:18:52.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T18:18:52.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAIwFUAAABMAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwEkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T12:12:15.892Z"
+              "WhenOpened": "2024-09-04T12:12:15.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -135,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -148,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Repo\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Repo\\ProductRepository.cs",

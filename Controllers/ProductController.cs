@@ -72,21 +72,6 @@ public class ProductController : ControllerBase
             return File(new UTF8Encoding().GetBytes(content), "text/scv", "report.scv");
         }
     }
-
-
-    [HttpGet(template: "get_statistic_cash_url")]
-    public ActionResult<string> GetProductSCVURL()
-    {
-        var content = "";
-        content = "";     
-
-        string fileName = null;
-        fileName = "Products" + DateTime.Now.ToBinary().ToString() + ".scv";
-        System.IO.File.WriteAllText(Path.Combine(Directory.GetCurrentDirectory(), "StaticFiles", fileName), content);
-        return "https://" + Request.Host.ToString() + "/static/" + fileName;
-    }
-
-
     private string GetSCV(IEnumerable<ProductDto> products)
     {
         StringBuilder sb = new StringBuilder();
