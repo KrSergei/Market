@@ -18,7 +18,7 @@ namespace Market.Controllers
             var content = _productRepository.GetCasheStatisticURL();
             string fileName = string.Empty;
             fileName = "Statistic-" + DateTime.Now.ToBinary().ToString() + ".scv";
-            System.IO.File.WriteAllText(Path.Combine(Directory.GetCurrentDirectory(), "StaticFiles", fileName), content);
+            System.IO.File.WriteAllText(System.IO.Path.Combine(Directory.GetCurrentDirectory(), "StaticFiles", fileName), content);
             return "https://" + Request.Host.ToString() + "/statistic/" + fileName;
         }
     }

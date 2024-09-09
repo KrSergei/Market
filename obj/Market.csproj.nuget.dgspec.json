@@ -52,7 +52,7 @@
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[12.0.0, )"
             },
             "Autofac": {
               "target": "Package",
@@ -61,6 +61,10 @@
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[13.9.12, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

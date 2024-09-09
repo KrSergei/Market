@@ -3,40 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\MSi\\source\\repos\\Market\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26D5A407-EA65-45A9-8628-60F3B9D9B209}|..\\MarketGraphQL\\MarketGraphQL.csproj|c:\\users\\msi\\source\\repos\\marketgraphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\controllers\\cashcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:controllers\\cashcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\repo\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:repo\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\abstractions\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:abstractions\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\models\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:models\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\controllers\\productpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:controllers\\productpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|c:\\users\\msi\\source\\repos\\market\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6EC70937-B59E-481F-A6AF-9B452D3532DB}|Market.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{26D5A407-EA65-45A9-8628-60F3B9D9B209}|..\\MarketGraphQL\\MarketGraphQL.csproj|c:\\users\\msi\\source\\repos\\marketgraphql\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,117 +16,33 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CashController.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\CashController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CashController.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\CashController.cs",
-              "RelativeToolTip": "Controllers\\CashController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T18:18:52.283Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAwwEkAAAAFAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\MarketGraphQL\\Program.cs",
+              "RelativeDocumentMoniker": "..\\MarketGraphQL\\Program.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\MarketGraphQL\\Program.cs",
+              "RelativeToolTip": "..\\MarketGraphQL\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T12:12:15.892Z",
+              "WhenOpened": "2024-09-09T14:51:58.592Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T12:10:32.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductPriceController.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\ProductPriceController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductPriceController.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Controllers\\ProductPriceController.cs",
-              "RelativeToolTip": "Controllers\\ProductPriceController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T12:07:14.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Abstractions\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Abstractions\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Abstractions\\IProductRepository.cs",
-              "RelativeToolTip": "Abstractions\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:03:39.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-04T11:58:04.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductContext.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\ProductContext.cs",
-              "RelativeDocumentMoniker": "Models\\ProductContext.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Models\\ProductContext.cs",
-              "RelativeToolTip": "Models\\ProductContext.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAmwAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T11:52:16.682Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAABoAAABQAAAA",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\MarketGraphQL\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\MarketGraphQL\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\MarketGraphQL\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "..\\MarketGraphQL\\Models\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T21:21:30.315Z",
+              "WhenOpened": "2024-09-09T13:09:32.657Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\Market\\Repo\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Repo\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\Market\\Repo\\ProductRepository.cs",
-              "RelativeToolTip": "Repo\\ProductRepository.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAIwGMAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:50:17.349Z"
             }
           ]
         }
